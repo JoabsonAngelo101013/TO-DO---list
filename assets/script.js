@@ -5,7 +5,7 @@ form.onsubmit = function (e) {
     e.preventDefault();
     const inputField = document.getElementById('task-input');
     addTask(inputField.value);
-    form.requestFullscreen();
+    //form.requestFullscreen();
 }
 
 function addTask(description) {
